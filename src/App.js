@@ -5,6 +5,7 @@ import { Bacis } from "./Componentes/Navbar";
 import { Heade } from "./Componentes/header";
 import { Collect } from "./Componentes/Collection";
 import { Par } from "./Componentes/Patrie";
+import { Hove } from "./Componentes/Hover";
 function App() {
   return (
     <div className='App'>
@@ -12,6 +13,7 @@ function App() {
       <Heade />
       <Collect />
       <Par />
+      <Hove />
     </div>
   );
 }
