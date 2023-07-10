@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.navs{
+  background-color: black;
+  height: 450%;
+}
+.btn:hover {
+  background-color: blue !important;
+}
