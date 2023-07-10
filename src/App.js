@@ -6,6 +6,7 @@ import { Heade } from "./Componentes/header";
 import { Collect } from "./Componentes/Collection";
 import { Par } from "./Componentes/Patrie";
 import { Hove } from "./Componentes/Hover";
+import { Marg } from "./Componentes/Marge";
 function App() {
   return (
     <div className='App'>
@@ -14,6 +15,7 @@ function App() {
       <Collect />
       <Par />
       <Hove />
+      <Marg />
     </div>
   );
 }
