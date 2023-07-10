@@ -36,13 +36,12 @@
     transform: rotate(360deg);
   }
 }
-.navs{
+/* .contain{
   background-color: black;
-  height: 450%;
-}
-.btn:hover {
-  background-color: blue !important;
-}
+  width: 100%;
+  height: 200px;
+
+} */
 .sect{
   background-color:black;
    height: 890px;
@@ -50,6 +49,14 @@
 h5{
   margin-top: 12%;
 }
+.navs{
+  background-color: black;
+  height: 450%;
+}
+.btn:hover {
+  background-color: blue !important;
+}
+
 .pr{
   margin-left: 15%;
   font-size: 100px;
@@ -102,6 +109,58 @@ h5{
   width: 30%;
   height: 20%;
 }
+
+input{
+  width: 50%;
+  height: 150%;
+}
+#but{
+  /* width: 50%; */
+  height: 150%;
+  border-radius: 8px;
+}
+.footer{
+  background-color: #031029;
+  margin-top: 20%;
+}
+.input{
+  background-color: #f4f7fa;
+  border-radius: 8px;
+  border: none;
+}
+.image{
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  
+  animation: square-to-circle 2s infinite alternate;
+}
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:rgb(167, 217, 15);
+ 
+  }
+  25%  {
+    border-radius:10% 10% 10% 10%;
+    background:rgb(121, 226, 9);
+    
+  }
+  50%  {
+    border-radius:25% 25% 25% 25%;
+    background:rgb(140, 228, 8)
+    
+  }
+  75%  { 
+    border-radius:40% 40% 40% 40%;
+     background:rgb(140, 250, 13);
+  }
+  100% {  
+    border-radius:50%;
+     background:rgb(118, 228, 8);
+  }
+}
+
 .training::before{
   content: '';
   position:absolute;
@@ -126,4 +185,11 @@ h5{
   background-color:#ffffff;
   top: 200%;
 }
-
+.salle{
+  margin-top:-80%;
+  left: 20%;
+  border: 1px solid red;
+  background-color: red;
+  width:20% ;
+  color: #ffffff;
+}

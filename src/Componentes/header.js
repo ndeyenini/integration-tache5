@@ -10,7 +10,7 @@ export const Heade = () => {
       <Container>
         <Row>
           <Col xs={12} md={12} lg={12}>
-            <h5 className='text-primary'>Welcom</h5>
+            <h5 className='text-primary mt-5'>Welcom</h5>
             <h1 className='text-light'>
               Selling on the<br></br> internet like a pro
             </h1>
